@@ -2,7 +2,12 @@ h1{
     font-family: 'helvetica', sans-serif;
     color: #0a2031;
 }
-
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e5eef8;
+}
 nav {
     display: flex;
     justify-content: space-evenly;
