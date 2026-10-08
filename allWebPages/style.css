@@ -1,5 +1,6 @@
 h1{
     font-family: 'helvetica', sans-serif;
+    color: #0a2031;
 }
 
 nav {
@@ -24,8 +25,36 @@ nav a {
     font-weight: 600;
 }
 
-nav a:hover,
-nav a:focus-visible {
+nav a:hover {
     background-color: #16456b;
     color: #fff;
+}
+
+p
+{
+    font-family: 'helvetica', sans-serif;
+    font-size: 24px;
+    background-color: #f4f8fc;
+    color: #16456b;
+    border: 1px solid #16456b;
+    border-radius: 12px;
+    padding: 10px 16px;
+}
+
+#copyright{
+    
+    background-color: rgb(100, 167, 222);
+    color: #000000;
+    opacity: 0.9;
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+}
+#textboxcolor{
+    background-color: #f4f8fc;
+    color: #16456b;
+    border: 1px solid #16456b;
+    border-radius: 6px;
+    padding: 10px 16px;
+    font-size: 16px;
 }
