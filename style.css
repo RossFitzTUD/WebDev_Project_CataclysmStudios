@@ -9,6 +9,15 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: #e5eef8;
+
+}
+#notindexpage{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e5eef8;
+    background-image: url('images/brahm.jpg');
+    background-size: cover;
 }
 nav {
     display: flex;
@@ -46,6 +55,7 @@ p
     border: 1px solid #16456b;
     border-radius: 12px;
     padding: 10px 16px;
+
 }
 
 #copyright{
@@ -64,4 +74,11 @@ p
     border-radius: 6px;
     padding: 10px 16px;
     font-size: 16px;
+}
+#image1{
+    width: 75%;
+    height: auto;
+    border-radius: 12px;
+    margin: 20px 0;
+    padding: 10px 16px;
 }
